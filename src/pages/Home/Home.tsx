@@ -1,16 +1,18 @@
 
-import Navbar from '../components/Navbar'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Services from './Home/Services';
-import MeenaStory from './Home/MeenaStory';
-import Quote from './Home/Quote';
+import Services from './Services';
+import MeenaStory from './MeenaStory';
+import Quote from './Quote';
+import ClimateChampions from './ClimateChampions';
+import Sponsors from "./Sponsors";
+import Footer from "../../components/Footer";
 
 
 const Home = () => {
   return (
     <>
       <div className='w-full lg:h-[100vh] border-2 border-red-500'>
-        <Navbar />
+        {/* <Navbar /> */}
         {/* <Carousel showArrows={true} showThumbs={false}
         autoPlay
         infiniteLoop
@@ -35,6 +37,9 @@ const Home = () => {
       <Services />
       <MeenaStory />
       <Quote />
+      <ClimateChampions />
+      <Sponsors />
+      <Footer />
     </>
   )
 }
