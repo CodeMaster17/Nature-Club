@@ -2,6 +2,9 @@
 import Navbar from '../components/Navbar'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Services from './Home/Services';
+import MeenaStory from './Home/MeenaStory';
+import Quote from './Home/Quote';
+
 
 const Home = () => {
   return (
@@ -30,6 +33,8 @@ const Home = () => {
       </Carousel> */}
       </div>
       <Services />
+      <MeenaStory />
+      <Quote />
     </>
   )
 }

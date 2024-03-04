@@ -12,6 +12,7 @@ module.exports = {
         navy_blue: "#010066",
         federal_blue: "#090844",
         black: "#000000",
+        pale_olive: "#ACC67F",
       },
       screens: {
         xs: "420px",
@@ -19,6 +20,10 @@ module.exports = {
         lg: "1024px",
         xl: "1280px",
         "2xl": "1536px",
+      },
+      borderRadius: {
+        "2.5xl": "20px",
+        "4xl": "30px",
       },
     },
   },
