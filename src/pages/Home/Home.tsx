@@ -6,33 +6,30 @@ import Quote from './Quote';
 import ClimateChampions from './ClimateChampions';
 import Sponsors from "./Sponsors";
 import Footer from "../../components/Footer";
-
+import { Carousel } from "@material-tailwind/react";
 
 const Home = () => {
   return (
     <>
       <div className='w-full lg:h-[100vh] border-2 border-red-500'>
         {/* <Navbar /> */}
-        {/* <Carousel showArrows={true} showThumbs={false}
-        autoPlay
-        infiniteLoop
-        // interval={2000}
-        showStatus={false}
-        className='z-0 w-full h-[100vh] object-center'
-        >
-        <div className='h-[100vh] w-full'>
-        <img src="/home/1.png" className='w-full h-[100vh]' />
-        <p className="legend">
-        
-        We are a non-profit working towards achieving a sustainable community.
-        </p>
-        </div>
-        <div>
-        <img src="/home/2.png" />
-        <p className="legend">Legend 2</p>
-        </div>
-        
-      </Carousel> */}
+        <Carousel placeholder={"Placeholder"} className="mt-[10vh] md:mt-0">
+          <img
+            src="/home/1.png"
+            alt="image 1"
+            className="h-full w-full object-cover"
+          />
+          <img
+            src="/home/2.png"
+            alt="image 2"
+            className="h-full w-full object-cover"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+            alt="image 3"
+            className="h-full w-full object-cover"
+          />
+        </Carousel>
       </div>
       <Services />
       <MeenaStory />
