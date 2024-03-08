@@ -5,7 +5,6 @@ import MeenaStory from './MeenaStory';
 import Quote from './Quote';
 import ClimateChampions from './ClimateChampions';
 import Sponsors from "./Sponsors";
-import Footer from "../../components/Footer";
 import { Carousel } from "@material-tailwind/react";
 
 const Home = () => {
@@ -36,7 +35,6 @@ const Home = () => {
       <Quote />
       <ClimateChampions />
       <Sponsors />
-      <Footer />
     </>
   )
 }

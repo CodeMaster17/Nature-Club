@@ -1,0 +1,47 @@
+.bg-img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bg-img-health {
+    background: url('/home/health.png');
+}
+
+.bg-img-ecology {
+    background: url('/home/ecology.png');
+}
+
+.bg-img-disaster {
+    background: url('/home/disaster.png');
+}
+
+.bg-img-livelihood {
+    background: url('/home/livelihood.png');
+}
+
+.bg-img-women {
+    background: url('/home/women.png');
+}
+
+.bg-img-climate {
+    background: url('/home/climate.png');
+}
+
+.bg-img-health::after,
+.bg-img-ecology::after,
+.bg-img-disaster:after,
+.bg-img-livelihood:after,
+.bg-img-women:after,
+.bg-img-climate::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0B0706;
+    border-radius: 20px;
+    opacity: 0.5;
+}

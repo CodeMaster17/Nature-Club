@@ -16,7 +16,7 @@ const Navbar = () => {
                 <img src="/logo.png" alt="Logo" />
                 <div className="w-1/2 flex justify-end items-center border-2 relative">
                     {/* Desktop Menu */}
-                    <ul className="hidden md:flex gap-4 h-full justify-between items-center cursor-pointer">
+                    <ul className="hidden md:flex gap-8 h-full justify-between items-center cursor-pointer">
                         <NavLink className="font-semi-bold md:text-base text-xl hover:underline" to="/">
                             HOME
                         </NavLink>
