@@ -11,8 +11,8 @@ const Navbar = () => {
 
 
     return (
-        <div className="w-full h-20 bg-white z-10 flex justify-center items-center fixed top-0 shadow-lg">
-            <div className="xl:w-[90%] w-full flex justify-between px-4">
+        <div className="w-full h-20 bg-white z-10 flex justify-center items-center  shadow-lg">
+            <div className="xl:w-[90%] w-full flex justify-between">
                 <img src="/logo.png" alt="Logo" />
                 <div className="w-1/2 flex justify-end items-center border-2 relative">
                     {/* Desktop Menu */}
