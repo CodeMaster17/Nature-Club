@@ -8,9 +8,9 @@ const About = () => {
     return (
         <>
             <section>
-                <div className="w-full h-screen relative">
-                    <img src="/about/hero-image.png" alt="hero" className="w-full h-full object-cover" />
-                    <p className="text-5xl absolute bottom-40 right-1/2 left-1/2 text-white font-bold ">ABOUT US</p>
+                <div className="w-full  h-[50vh] md:h-screen  cover-image flex justify-center items-end " >
+                    {/* <img src="/about/hero-image.png" alt="hero" className="w-full h-full object-cover" /> */}
+                    <p className="lg:text-5xl text-2xl  text-white font-bold mb-20 ">ABOUT US</p>
                 </div>
             </section>
             <Goal />
