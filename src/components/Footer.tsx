@@ -15,14 +15,14 @@ const Footer = () => {
                             <img src="/footer/LinkedIn Circled.png" alt="" />
                         </a>
                         <a className=" rounded-full" href="#">
-                            <img src="/public/footer/Facebook.svg" alt="" />
+                            <img src="/footer/Facebook.svg" alt="" />
                         </a>
                         <a className=" text-gray-500  rounded-full" href="#">
-                            <img src="/public/footer/WhatsApp.png" alt="" />
+                            <img src="/footer/WhatsApp.png" alt="" />
 
                         </a>
                         <a className=" text-gray-500  rounded-full" href="#">
-                            <img src="/public/footer/Instagram Circle.png" alt="" />
+                            <img src="/footer/Instagram Circle.png" alt="" />
                         </a>
                     </span>
                 </div>
