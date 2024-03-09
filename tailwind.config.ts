@@ -14,6 +14,7 @@ module.exports = withMT({
         federal_blue: "#090844",
         black: "#000000",
         pale_olive: "#ACC67F",
+        light_blue: "#E6F5FF",
       },
       screens: {
         xs: "420px",

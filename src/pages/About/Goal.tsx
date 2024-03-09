@@ -1,11 +1,15 @@
 
 const mission = [
-    { id: 1, heading: "OUR GOAL", text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus asperiores at fuga illum eos, cupiditate voluptatum nostrum cum quibusdam quod!" },
-    { id: 2, heading: "OUR GOAL", text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus asperiores at fuga illum eos, cupiditate voluptatum nostrum cum quibusdam quod!" },
-    { id: 3, heading: "OUR GOAL", text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus asperiores at fuga illum eos, cupiditate voluptatum nostrum cum quibusdam quod!" },
-    { id: 4, heading: "OUR GOAL", text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus asperiores at fuga illum eos, cupiditate voluptatum nostrum cum quibusdam quod!" },
-    { id: 5, heading: "OUR GOAL", text: "Lorem ipsum, dolor sit amet consectetur adipi5icing elit. Temporibus asperiores at fuga illum eos, cupiditate voluptatum nostrum cum quibusdam quod!" },
-    { id: 6, heading: "OUR GOAL", text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus asperiores at fuga illum eos, cupiditate voluptatum nostrum cum quibusdam quod!" },
+    {
+        id: 1, heading: "OUR GOAL", text: "Sustainable and empowered communities sensitive to ecology and environment."
+    },
+    { id: 2, heading: "OUR VISION", text: "We are a non-profit working towards achieving a sustainable community" },
+    {
+        id: 3, heading: "OUR MISSION", text: "Prioritise issues for climate action, Disaster Resilience and sustainable livelihood aligning with Sustainable Development Goals."
+    },
+    { id: 4, heading: "PRINCIPLE", text: "We do not develop parallel systems. We rather help strengthen the existing systems for effective implementation of programs and sustainability." },
+    { id: 5, heading: "ROLE", text: "Advocacy and partnership, Counselling, Assessment, Implementation, Monitoring" },
+    { id: 6, heading: "WORKING CONCEPT:", text: "Meena Club Concept - Child Centric Development model" },
 ]
 const Goal = () => {
     return (
@@ -19,10 +23,10 @@ const Goal = () => {
                                 <div className={`h-full w-[40px] ${item.id == 1 || item.id == 4 || item.id == 5 ? `bg-fern_green` : `bg-navy_blue`}`}>
                                 </div>
                                 <div className="p-12">
-                                    <span className="title-font font-medium">OUR GOAL</span>
+                                    <span className="title-font font-medium">{item.heading}</span>
                                     <br />
                                     <p>
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus asperiores at fuga illum eos, cupiditate voluptatum nostrum cum quibusdam quod!
+                                        {item.text}
                                     </p>
                                 </div>
                             </div>

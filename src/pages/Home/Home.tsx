@@ -10,9 +10,9 @@ import { Carousel } from "@material-tailwind/react";
 const Home = () => {
   return (
     <>
-      <div className='w-full lg:h-[100vh] border-2 border-red-500 '>
+      <div className='w-full lg:h-[100vh]'>
         {/* <Navbar /> */}
-        <Carousel placeholder={"Placeholder"} className="mt-[10vh] md:mt-0">
+        <Carousel placeholder={"Placeholder"} className="">
           <img
             src="/home/1.png"
             alt="image 1"

@@ -3,7 +3,7 @@ import ServicesCards from "../../components/ServicesCards"
 
 const Services = () => {
     return (
-        <section className="w-full bg-nyanza pb-20 pt-20">
+        <section className="w-full bg-nyanza pb-20 pt-20 overflow-y-hidden">
             <div className="w-full text-center">
                 <Heading color="#588645" text="areas what we serve" type="SMALL" />
                 <Heading color="#010066" text="OUR SERVICES" type="LARGE" />
