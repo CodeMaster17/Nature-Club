@@ -1,4 +1,4 @@
-import React from 'react'
+
 import SmallHeading from './SmallHeading'
 import Paragraph from './Paragraph'
 import Heading from '../../components/Heading'
