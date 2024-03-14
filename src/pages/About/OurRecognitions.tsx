@@ -16,8 +16,8 @@ const OurRecognitions = () => {
                     {RecognitionData.map((item) => {
                         return (
                             <div className=" sm:w-[45%] w-full" key={item.id}>
-                                <div className="bg-federal_blue text-white text-center font-medium rounded flex p-4 md:p-2 h-full items-center">
-                                    <span className="title-base md:text-xs font-light px-2  md:px-0 w-full">
+                                <div className="bg-federal_blue text-white text-center font-medium rounded flex p-4 md:p-2 xl:p-4 h-full items-center">
+                                    <span className="title-base md:text-xs font-light px-2 lg:text-lg md:px-0 w-full">
                                         {item.value}
                                         <br />
                                         {item.year && item.year}
