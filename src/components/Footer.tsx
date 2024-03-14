@@ -6,7 +6,6 @@ const Footer = () => {
                 <div className="w-64  flex flex-col gap-4 justify-center items-center flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
                     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                         <img src="/footer/logo.png" alt="" className="w-20 h-20" />
-                        {/* <span className="ml-3 text-xl">Nature's Club</span> */}
                     </a>
 
                     <span className="flex gap-4">
