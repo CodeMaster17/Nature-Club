@@ -1,15 +1,7 @@
 import Heading from "../../components/Heading"
+import { RecognitionData } from "../../constants"
 
-const recognitions = [
-    { id: 1, text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia illo saepe libero consequuntur consectetur, maxime eveniet eum corporis adipisci soluta!" },
-    { id: 2, text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia illo saepe libero consequuntur consectetur, maxime eveniet eum corporis adipisci soluta!" },
-    { id: 3, text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia illo saepe libero consequuntur consectetur, maxime eveniet eum corporis adipisci soluta!" },
-    { id: 4, text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia illo saepe libero consequuntur consectetur, maxime eveniet eum corporis adipisci soluta!" },
-    { id: 5, text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia illo sepe libero consequuntur consectetur, maxime eveniet eum corporis adipisci soluta!" },
-    { id: 6, text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia illo saepe libero consequuntur consectetur, maxime eveniet eum corporis adipisci soluta!" },
-    { id: 7, text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia illo saepe libero consequuntur consectetur, maxime eveniet eum corporis adipisci soluta!" },
-    { id: 8, text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia illo saepe libero consequuntur consectetur, maxime eveniet eum corporis adipisci soluta!" },
-]
+
 
 const OurRecognitions = () => {
     return (
@@ -21,18 +13,20 @@ const OurRecognitions = () => {
 
                 </div>
                 <div className="flex flex-wrap justify-between gap-4 lg:w-full sm:mx-auto sm:mb-2 ">
-                    {recognitions.map((item) => {
+                    {RecognitionData.map((item) => {
                         return (
                             <div className=" sm:w-[45%] w-full" key={item.id}>
-                                <div className="bg-federal_blue text-white text-center font-medium rounded flex p-4 h-full items-center">
-                                    <span className="title-font font-medium px-8">
-                                        {item.text}
+                                <div className="bg-federal_blue text-white text-center font-medium rounded flex p-4 md:p-2 h-full items-center">
+                                    <span className="title-base md:text-xs font-light px-2  md:px-0 w-full">
+                                        {item.value}
+                                        <br />
+                                        {item.year && item.year}
                                     </span>
                                 </div>
                             </div>)
                     })}
                 </div>
-                <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Load More</button>
+                {/* <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Load More</button> */}
             </div>
         </section>
     )

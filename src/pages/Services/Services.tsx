@@ -1,7 +1,13 @@
 import { useState } from "react"
 import Heading from "../../components/Heading"
 import { ServicesTabsData } from "../../constants"
-
+import HealthAndNutrition from "./HealthAndNutrition"
+import EcologyAndEnvironment from "./EcologyAndEnvironment"
+import DisasterRiskReduction from "./DisasterRiskReduction"
+import ClimateChange from "./ClimateChange"
+import ChildRights from "./ChildRights"
+import WaterSanitation from "./WaterSanitation"
+import './Service.css'
 
 const ServicesPage = () => {
 
@@ -20,23 +26,19 @@ const ServicesPage = () => {
             <div className="w-full bg-navy_blue text-center p-2  md:p-8 flex lg:gap-2 gap-4 justify-center items-center  flex-wrap ">
                 {ServicesTabsData.map((item) => {
                     return (
-                        <div className={`w-[40%]  md:w-1/5 border-2 rounded-2xl cursor-pointer h-12 flex justify-center items-center px-2 lg:py-4 lg:text-base md:m-4 text-sm ${item.id === activeTab ? "shadow-md shadow-red-50" : ""} `} key={item.id} onClick={() => tabHandler(item.id)}>
+                        <div className={`w-[40%]  md:w-1/5 border-[0.5px] rounded-2xl cursor-pointer h-12 flex justify-center items-center px-2 lg:py-4 lg:text-base md:m-4 text-sm ${item.id === activeTab ? "activeTab" : ""} `} key={item.id} onClick={() => tabHandler(item.id)}>
                             <h1 className="text-white">{item.title}</h1>
                         </div>
                     )
                 })}
             </div>
             <div className="w-full p-2 md:p-2">
-                {ServicesTabsData.map((item) => {
-                    return item.id === activeTab ? (
-                        <>
-                            <img src={item.imgURL} alt="" className="w-full" />
-                            <div className={`w-full`} key={item.id}>
-                                <p className="text-black">{item.description}</p>
-                            </div>
-                        </>
-                    ) : null;
-                })}
+                {activeTab === 1 && <HealthAndNutrition />}
+                {activeTab === 2 && <EcologyAndEnvironment />}
+                {activeTab === 3 && <DisasterRiskReduction />}
+                {activeTab === 4 && <ClimateChange />}
+                {activeTab === 5 && <ChildRights />}
+                {activeTab === 6 && <WaterSanitation />}
             </div>
 
         </section>

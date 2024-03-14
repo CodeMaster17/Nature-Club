@@ -1,6 +1,7 @@
 
 import Heading from '../../components/Heading'
-import { AcheivementData } from '../../constants'
+import { AcheivementData } from '../../constants';
+
 import './About.css'
 interface AcheivmentDataType {
     id: number;
@@ -26,7 +27,7 @@ const Acheivements = () => {
                             </div>
                         )
                     })}
-                    <button className="py-2 px-4 mt-8 rounded-2.5xl bg-fern_green text-white">Load More </button>
+                    {/* <button className="py-2 px-4 mt-8 rounded-2.5xl bg-fern_green text-white">Load More </button> */}
                 </div>
             </div>
         </section>

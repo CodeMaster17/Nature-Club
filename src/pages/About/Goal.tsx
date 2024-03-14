@@ -19,13 +19,13 @@ const Goal = () => {
                 {mission.map((item) => {
                     return (
                         <div className="p-2 sm:w-1/2 w-full" key={item.id}>
-                            <div className="bg-honeydew rounded flex text-left  h-full ">
-                                <div className={`h-full w-[40px] ${item.id == 1 || item.id == 4 || item.id == 5 ? `bg-fern_green` : `bg-navy_blue`}`}>
+                            <div className="bg-honeydew rounded flex text-left justify-center  h-full ">
+                                <div className={`h-full w-[10px] ${item.id == 1 || item.id == 4 || item.id == 5 ? `bg-fern_green` : `bg-navy_blue`}`}>
                                 </div>
-                                <div className="p-12">
+                                <div className="p-4 w-full md:p-12  ">
                                     <span className="title-font font-medium">{item.heading}</span>
                                     <br />
-                                    <p>
+                                    <p className="text-xs md:text-base">
                                         {item.text}
                                     </p>
                                 </div>

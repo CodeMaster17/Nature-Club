@@ -3,32 +3,51 @@
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
 }
 
 .bg-img-health {
     background: url('/home/health.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
 .bg-img-ecology {
     background: url('/home/ecology.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .bg-img-disaster {
     background: url('/home/disaster.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .bg-img-livelihood {
     background: url('/home/livelihood.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .bg-img-women {
     background: url('/home/women.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .bg-img-climate {
     background: url('/home/climate.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .bg-img-health::after,
@@ -44,4 +63,7 @@
     background-color: #0B0706;
     border-radius: 20px;
     opacity: 0.5;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }

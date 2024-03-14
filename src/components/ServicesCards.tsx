@@ -3,7 +3,7 @@ import './ServicesCard.css'
 const ServicesCards = () => {
     return (
         <>
-            <div className="w-full md:w-[30%] w-[80%] lg:w-[25%] rounded-2.5xl bg-white">
+            <div className="w-full md:w-[40%] lg:w-[25%] rounded-2.5xl bg-white">
                 <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-health rounded-2.5xl relative">
                     <div className="w-full p-4 h-full  text-white absolute z-20 border-2 flex flex-col justify-between">
                         <div className='w-full'>
@@ -20,7 +20,7 @@ const ServicesCards = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full md:w-[30%] w-[80%] lg:w-[25%] rounded-2.5xl bg-white">
+            <div className="w-full md:w-[40%]  lg:w-[25%] rounded-2.5xl bg-white">
                 <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-ecology rounded-2.5xl relative">
                     <div className="w-full p-4 h-full  text-white absolute z-20 border-2 flex flex-col justify-between">
                         <div className='w-full'>
@@ -38,7 +38,7 @@ const ServicesCards = () => {
                 </div>
             </div>
             {/* disaster */}
-            <div className="w-full md:w-[30%] w-[80%] lg:w-[25%] rounded-2.5xl bg-white">
+            <div className="w-full md:w-[40%] lg:w-[25%] rounded-2.5xl bg-white">
                 <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-disaster rounded-2.5xl relative">
                     <div className="w-full p-4 h-full  text-white absolute z-20 border-2 flex flex-col justify-between">
                         <div className='w-full'>
@@ -55,7 +55,7 @@ const ServicesCards = () => {
                 </div>
             </div>
             {/* livelihood */}
-            <div className="w-full md:w-[30%] w-[80%] lg:w-[25%] rounded-2.5xl bg-white">
+            <div className="w-full md:w-[40%]  lg:w-[25%] rounded-2.5xl bg-white">
                 <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-livelihood  rounded-2.5xl relative">
                     <div className="w-full p-4 h-full  text-white absolute z-20 border-2 flex flex-col justify-between">
                         <div className='w-full'>
@@ -72,7 +72,7 @@ const ServicesCards = () => {
                 </div>
             </div>
             {/* women and children */}
-            <div className="w-full md:w-[30%] w-[80%] lg:w-[25%] rounded-2.5xl bg-white">
+            <div className="w-full md:w-[40%]  lg:w-[25%] rounded-2.5xl bg-white">
                 <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-women  rounded-2.5xl relative">
                     <div className="w-full p-4 h-full  text-white absolute z-20 border-2 flex flex-col justify-between">
                         <div className='w-full'>
@@ -89,7 +89,7 @@ const ServicesCards = () => {
                 </div>
             </div>
             {/* climate champions */}
-            <div className="w-full md:w-[30%] w-[80%] lg:w-[25%] rounded-2.5xl bg-white">
+            <div className="w-full md:w-[40%]  lg:w-[25%] rounded-2.5xl bg-white">
                 <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-climate  rounded-2.5xl relative">
                     <div className="w-full p-4 h-full  text-white absolute z-20 border-2 flex flex-col justify-between">
                         <div className='w-full'>

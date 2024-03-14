@@ -26,9 +26,9 @@ const Footer = () => {
                         </a>
                     </span>
                 </div>
-                <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
-                    <div className="lg:w-full md:w-1/2 w-full ">
-                        <nav className="list-none mb-10 ">
+                <div className="flex-grow flex flex-wrap  -mb-10 md:text-left text-center order-first">
+                    <div className="lg:w-full  w-full ">
+                        <nav className="list-none mb-10 w-full ">
                             <p className="text-white text-base">Registered Office - At Mahipal, Po/Dist- Kendrapara, Odisha, Pin-754211</p>
                             <br />
                             <p className="text-white text-base">Societies Registration Act &nbsp;  XXI of 1860, &nbsp;  Regd. No. 20104 / 67</p>

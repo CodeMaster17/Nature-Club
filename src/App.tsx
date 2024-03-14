@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Router>
-        <main className='w-[100vw] overflow-x-hidden '>
+        <main className='w-[100vw] overflow-x-hidden'>
 
           <Navbar />
           <Routes>
@@ -23,8 +23,8 @@ function App() {
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-          <Footer />
         </main>
+        <Footer />
       </Router>
     </>
   )
