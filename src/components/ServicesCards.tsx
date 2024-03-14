@@ -5,7 +5,7 @@ const ServicesCards = () => {
         <>
             <div className="w-full md:w-[40%] lg:w-[25%] rounded-2.5xl bg-white">
                 <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-health rounded-2.5xl relative">
-                    <div className="w-full p-4 h-full  text-white absolute z-20 border-2 flex flex-col justify-between">
+                    <div className="w-full p-4 h-full  text-white absolute z-20  flex flex-col justify-between">
                         <div className='w-full'>
 
                             <h1 className="text-left mt-8 text-base md:text-2xl font-bold mb-2">Health and Nutrition</h1>
@@ -22,7 +22,7 @@ const ServicesCards = () => {
             </div>
             <div className="w-full md:w-[40%]  lg:w-[25%] rounded-2.5xl bg-white">
                 <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-ecology rounded-2.5xl relative">
-                    <div className="w-full p-4 h-full  text-white absolute z-20 border-2 flex flex-col justify-between">
+                    <div className="w-full p-4 h-full  text-white absolute z-20  flex flex-col justify-between">
                         <div className='w-full'>
 
                             <h1 className="text-left mt-8 text-base md:text-2xl font-bold mb-2">Project Anand</h1>
@@ -40,7 +40,7 @@ const ServicesCards = () => {
             {/* disaster */}
             <div className="w-full md:w-[40%] lg:w-[25%] rounded-2.5xl bg-white">
                 <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-disaster rounded-2.5xl relative">
-                    <div className="w-full p-4 h-full  text-white absolute z-20 border-2 flex flex-col justify-between">
+                    <div className="w-full p-4 h-full  text-white absolute z-20  flex flex-col justify-between">
                         <div className='w-full'>
 
                             <h1 className="text-left mt-8 text-base md:text-2xl font-bold mb-2">Targeted Intervention Project</h1>
@@ -57,7 +57,7 @@ const ServicesCards = () => {
             {/* livelihood */}
             <div className="w-full md:w-[40%]  lg:w-[25%] rounded-2.5xl bg-white">
                 <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-livelihood  rounded-2.5xl relative">
-                    <div className="w-full p-4 h-full  text-white absolute z-20 border-2 flex flex-col justify-between">
+                    <div className="w-full p-4 h-full  text-white absolute z-20  flex flex-col justify-between">
                         <div className='w-full'>
 
                             <h1 className="text-left mt-8 text-base md:text-2xl font-bold mb-2">Clean energy solution</h1>
@@ -74,7 +74,7 @@ const ServicesCards = () => {
             {/* women and children */}
             <div className="w-full md:w-[40%]  lg:w-[25%] rounded-2.5xl bg-white">
                 <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-women  rounded-2.5xl relative">
-                    <div className="w-full p-4 h-full  text-white absolute z-20 border-2 flex flex-col justify-between">
+                    <div className="w-full p-4 h-full  text-white absolute z-20  flex flex-col justify-between">
                         <div className='w-full'>
                             <h1 className="text-left mt-8 text-base md:text-2xl font-bold mb-2">Resilient Livelihood</h1>
                             <p className="text-left font-light md:text-base text-sm">
@@ -91,7 +91,7 @@ const ServicesCards = () => {
             {/* climate champions */}
             <div className="w-full md:w-[40%]  lg:w-[25%] rounded-2.5xl bg-white">
                 <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-climate  rounded-2.5xl relative">
-                    <div className="w-full p-4 h-full  text-white absolute z-20 border-2 flex flex-col justify-between">
+                    <div className="w-full p-4 h-full  text-white absolute z-20  flex flex-col justify-between">
                         <div className='w-full'>
 
                             <h1 className="text-left mt-8 text-base md:text-2xl font-bold mb-2">Child rights and child protection</h1>
