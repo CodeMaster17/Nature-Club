@@ -29,7 +29,7 @@ const ClimateChampions = () => {
                     <p className="md:text-lg mt-4 xs:text-base">
                         Our climate champions are the people who have made a significant impact in the fight against climate change. They have been working tirelessly to make the world a better place for all of us. We are proud to have them as a part of our community.
                         <br />
-                        Our climate champions are the people who have made a significant impact in the fight against climate change. They have been working tirelessly to make the world a better place for all of us. We are proud to have them as a part of our community.
+
                     </p>
                     {/* <NavLink to="/about">READ MORE</NavLink> */}
 
