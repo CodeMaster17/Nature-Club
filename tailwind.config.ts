@@ -15,6 +15,7 @@ module.exports = withMT({
         black: "#000000",
         pale_olive: "#ACC67F",
         light_blue: "#E6F5FF",
+        gray_card: "#E2E7E0",
       },
       screens: {
         xs: "420px",

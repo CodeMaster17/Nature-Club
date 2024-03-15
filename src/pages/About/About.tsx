@@ -1,6 +1,7 @@
 import AboutImage from "./AboutImage"
 import AboutQuote from "./AboutQuote"
 import Acheivements from "./Acheivements"
+import Documentation from "./Documentation"
 import Goal from "./Goal"
 import OurRecognitions from "./OurRecognitions"
 
@@ -18,6 +19,7 @@ const About = () => {
             <OurRecognitions />
             <AboutQuote />
             <Acheivements />
+            <Documentation />
         </>
     )
 }
