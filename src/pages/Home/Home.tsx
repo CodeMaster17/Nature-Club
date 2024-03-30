@@ -7,6 +7,7 @@ import ClimateChampions from './ClimateChampions';
 
 import { Carousel } from "@material-tailwind/react";
 import './Home.css'
+import Sponsors from "./Sponsors";
 const Home = () => {
   return (
     <>
@@ -39,13 +40,13 @@ const Home = () => {
             className="h-full w-full object-cover"
           />
         </Carousel>
-        <p className="lg:text-5xl text-2xl absolute bottom-24 customClass  text-white font-bold mb-20 ">NATURE CLUB</p>
+        <p className="lg:text-5xl text-2xl absolute bottom-24 customClass  text-white font-bold mb-20 ">NATURE'S CLUB</p>
       </div>
       <Services />
       <MeenaStory />
       <Quote />
       <ClimateChampions />
-      {/* <Sponsors /> */}
+      <Sponsors />
     </>
   )
 }
