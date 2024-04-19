@@ -15,27 +15,27 @@ const Home = () => {
         {/* <Navbar /> */}
         <Carousel placeholder={"Placeholder"} className="">
           <img
-            src="/home/5.jpeg"
+            src="/hero-image.jpeg"
             alt="image 3"
             className="h-full w-full object-cover"
           />
           <img
-            src="/home/4.jpeg"
+            src="/Agriculture and livelihood/P1050233.JPG"
             alt="image 3"
             className="h-full w-full object-cover"
           />
           <img
-            src="/home/1.png"
+            src="/CCDRR/DSC03889.JPG"
             alt="image 1"
             className="h-full w-full object-cover"
           />
           <img
-            src="/home/2.png"
+            src="/Child rights/IMG_1225.JPG"
             alt="image 2"
             className="h-full w-full object-cover"
           />
           <img
-            src="/home/3.jpeg"
+            src="/Climate Change/5f9f4443-3716-424b-88be-2767f3454ecb.jpg"
             alt="image 3"
             className="h-full w-full object-cover"
           />
