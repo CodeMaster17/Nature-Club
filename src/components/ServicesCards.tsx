@@ -67,7 +67,7 @@ const ServicesCards = () => {
                     <div className="w-full p-4 h-full  text-white absolute z-20  flex flex-col justify-between">
                         <div className='w-full'>
 
-                            <h1 className="text-left mt-8 text-base md:text-2xl font-bold mb-2">Climate change And Adaptive Childhood</h1>
+                            <h1 className="text-left mt-8 text-base md:text-2xl font-bold mb-2">Climate change And Adaptive Livelihood</h1>
                             <p className="text-left font-light md:text-base text-sm">
                                 Climate change is increasingly threatening lives, habitat and livelihood, the most in the circle of Bay of Bengal.
                             </p>
