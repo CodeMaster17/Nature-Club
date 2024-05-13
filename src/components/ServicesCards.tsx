@@ -61,13 +61,13 @@ const ServicesCards = () => {
                     </div>
                 </div>
             </div>
-            {/* livelihood */}
+            {/* climate change */}
             <div className="w-full md:w-[40%]  lg:w-[25%] rounded-2.5xl bg-white">
-                <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-livelihood  rounded-2.5xl relative">
+                <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-climate-change  rounded-2.5xl relative">
                     <div className="w-full p-4 h-full  text-white absolute z-20  flex flex-col justify-between">
                         <div className='w-full'>
 
-                            <h1 className="text-left mt-8 text-base md:text-2xl font-bold mb-2">Climate change</h1>
+                            <h1 className="text-left mt-8 text-base md:text-2xl font-bold mb-2">Climate change And Adaptive Childhood</h1>
                             <p className="text-left font-light md:text-base text-sm">
                                 Climate change is increasingly threatening lives, habitat and livelihood, the most in the circle of Bay of Bengal.
                             </p>
@@ -80,9 +80,9 @@ const ServicesCards = () => {
                     </div>
                 </div>
             </div>
-            {/* women and children */}
+            {/*  child rights */}
             <div className="w-full md:w-[40%]  lg:w-[25%] rounded-2.5xl bg-white">
-                <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-women  rounded-2.5xl relative">
+                <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-childrights  rounded-2.5xl relative">
                     <div className="w-full p-4 h-full  text-white absolute z-20  flex flex-col justify-between">
                         <div className='w-full'>
                             <h1 className="text-left mt-8 text-base md:text-2xl font-bold mb-2">Child Rights and Child protection</h1>
@@ -99,9 +99,9 @@ const ServicesCards = () => {
                     </div>
                 </div>
             </div>
-            {/* climate champions */}
+            {/* water */}
             <div className="w-full md:w-[40%]  lg:w-[25%] rounded-2.5xl bg-white">
-                <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-climate  rounded-2.5xl relative">
+                <div className="flex flex-col lg:h-[400px] h-[300px] md:h-96 bg-img bg-img-water  rounded-2.5xl relative">
                     <div className="w-full p-4 h-full  text-white absolute z-20  flex flex-col justify-between">
                         <div className='w-full'>
 

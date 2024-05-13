@@ -16,35 +16,35 @@
 }
 
 .bg-img-ecology {
-    background: url('/Agriculture\ and\ livelihood/IMG_13.jpg');
+    background: url('/ecology_and_environment.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .bg-img-disaster {
-    background: url('/home/disaster.png');
+    background: url('/CCDRR/1124.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.bg-img-livelihood {
-    background: url('/home/livelihood.png');
+.bg-img-climate-change {
+    background: url('/Climate_Change/5f9f4443-3716-424b-88be-2767f3454ecb.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.bg-img-women {
-    background: url('/home/women.png');
+.bg-img-childrights {
+    background: url('/Child_rights/IMG_1196.JPG');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.bg-img-climate {
-    background: url('/home/climate.png');
+.bg-img-water {
+    background: url('/Climate_Change/5f9f4443-3716-424b-88be-2767f3454ecb.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
