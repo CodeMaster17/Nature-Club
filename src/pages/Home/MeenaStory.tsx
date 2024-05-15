@@ -11,7 +11,7 @@ const MeenaStory = () => {
 
                     </h1>
                     <p className="mb-8 leading-relaxed">
-
+                        The candle of enlightenment, which was lightened by Nature’s Club with support from UNICEF in one of the socially, economically and educationally backward G.P. Baradia in the inaccessible corner of Rajkanika Block of Kendrapara District a few years back, has started spreading to many places in Orissa. The small attempt of protecting and promoting the rights of the girl child by the animated character Meena has started happening in real life.  Nature’s Club, since its inception was concerned about women and children. It started the child Rights Campaign, a UNICEF concept, with challenge and made this experimental endeavor a success by sensitizing the masses and established the foundation for a <b>child friendly society movement.</b>
                     </p>
                     <div className="flex justify-center">
                         {/* <button className="inline-flex text-white bg-fern_green border-0 py-2 px-6 focus:outline-none  rounded-4xl lg:text-lg items-center gap-4 text-base">
@@ -22,7 +22,7 @@ const MeenaStory = () => {
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img className="object-cover object-center rounded" alt="hero" src="/home/meen-story.png" />
+                    <img className="object-cover object-center rounded" alt="hero" src="/Child_rights/IMG_1225.JPG" />
                 </div>
             </div>
 

@@ -5,14 +5,17 @@ import SmallHeading from "./SmallHeading"
 
 const HealthAndNutrition = () => {
     return (
-        <div className="w-full p-8">
+        <div className="w-full p-8" id="health_and_nutrition">
             <div className="w-full text-center">
                 <Heading text="Health and Nutrition" color="#588645" type="LARGE" />
             </div>
             <br />
             <br />
-            <img src="/services/health.png" alt="Health" className="w-full" />
+            <img src="/Health/VG Health Mela 01.jpg" alt="Health" className="w-full" />
             <br />
+            <SmallHeading>
+                HEALTH AND NUTRITION
+            </SmallHeading>
             <br />
 
             <Paragraph>
@@ -25,7 +28,51 @@ const HealthAndNutrition = () => {
             <br />
             <br />
             <SmallHeading>
-                Project Anand:
+                MALNUTRITION PREVENTION PROGRAM
+            </SmallHeading>
+            <br />
+            <Paragraph>
+                Nature’s Club implemented UNICEF’s program ‘Training of Mahila Mandals on prevention of malnutrition’ in 100 Grampanchayats of five blocks of Kendrapara district in 1997 and it was our first big program and initiation of a long partnership with Unicef. More than 6000 women of different age groups (Adolescents girls, daughter-in-laws and Mother-in-laws) were oriented on different aspects of Malnutrition and its prevention. The program changed the perspective of women towards reproductive health and many prevailing wrong practices / myths were questioned by the participants during and after the training.
+            </Paragraph>
+
+            <br />
+            <SmallHeading>
+                SPECIAL IMMUNIZATION PROGRAM:
+            </SmallHeading>
+            <br />
+            <Paragraph>
+                With Unicef’s support Nature’s Club organized a special immunization drive (three consecutive sessions in 3 months) with Mahakalpada CHC to ensure complete immunization of children U5 in six hard to access Grampanchayats of Mahakalpada block in 1998. The drive covered all the non-starters and dropouts and improved the immunization status of the said communities to nearly 95%.
+
+            </Paragraph>
+            <br />
+            <SmallHeading>
+                BLINDNESS CONTROL PROGRAM:
+            </SmallHeading>
+            <br />
+            <Paragraph>
+                Nature’s Club was a member of District Blindness Control Society, Kendrapara district in 1997-2000. We organized cataract screening and operation camps in hard to reach areas of Kendrapara district.
+
+            </Paragraph>
+            <br />
+            <SmallHeading>
+                RCH II PROJECT:
+            </SmallHeading>
+            <br />
+            <Paragraph>
+                As Field NGO of Rajnagar block Nature’s Club implemented RCH II project supported by NRHM Odisha in two most inaccessible and underserved health sub-centres Rangani and Satavaya of Rajnagar block from 2007 to 2011. The endeavor improved access to reproductive health services and achieved its desired results in institutional delivery, complete immunization, access to contraceptives including injectable and reducing CBR. Strengthening of VHNDs, Immunization and doorstep services resulted in early diagnosis and prompt treatment reducing infant and maternal death and morbidity. The highlight of the intervention was reduction of live births from 531 in 2007 to 441 in 2010.
+            </Paragraph>
+            <br />
+            <br />
+            <SmallHeading>
+                VULNERABLE GROUP PROJECT:
+            </SmallHeading>
+            <br />
+            <Paragraph>
+                Ten most underserved villages of Rajnagar and Aul block from Kolidiha and Kandira health subcentres were covered under this project supported by NRHM, Odisha resulting in improved health services in the area. Adolescent health was prioritized with Reproductive and child health.
+            </Paragraph>
+            <br />
+            <SmallHeading>
+                PROJECT ANAND:
             </SmallHeading>
             <br />
             <Paragraph>
@@ -35,7 +82,7 @@ const HealthAndNutrition = () => {
             <br />
             <br />
             <SmallHeading>
-                Targeted Intervention:
+                TARGETED INTERVENTION PROJECT:
             </SmallHeading>
             <br />
             <Paragraph>
@@ -46,12 +93,18 @@ const HealthAndNutrition = () => {
                 Targeting core communities in relation to the prevalence of STI and HIV and working with them for safe sex practice is the major objective of the project. In addition creating enabling environment to fight HIV and AIDS through community mobilization and advocacy, care and support to PLHIVs and working with adolescents and youths on &quot;Know AIDS for No AIDS&quot; are other key activities of this project.
             </Paragraph>
             <br />
+            <Paragraph>
+                We are working with 300 FWSs and 150 MSMs as our Target Groups and have succeeded in influencing behavior changes towards safe sex practices among them as well as proper STI management through Preferred Provider doctors.
+            </Paragraph>
+            <br />
             <br />
             <SmallHeading>
-                IMUNIZATION AVD:
+                ALTERNATE VACCINE DELIVERY:
             </SmallHeading>
+            <br />
             <Paragraph>
-                Complete Immunization to every child and mother is our national target. Though we have a huge and well placed health care system with outreach presence in all the habitations, we have not yet achieved the target. Vaccination at the accessible distance and regular vaccination sessions   are key to minimize the gap. Nature&quot;s Club has been supporting Rajnagar block health administration in vaccine delivery on all the regular vaccination sessions in all 26 health sub-centres under Rajnagar CHC. We are happy to be a part of the great endeavor.
+                Complete Immunization to every child and mother is our national target. Though we have a huge and well placed health care system with outreach presence in all the habitations, we have not yet achieved the target. Vaccination at the accessible distance and regular vaccination sessions   are key to minimize the gap. Nature’s Club has been supporting Rajnagar block health administration in vaccine delivery on all the regular vaccination sessions in all 26 health sub-centres under Rajnagar CHC. We are happy to be a part of the great endeavor.
+
             </Paragraph>
         </div>
     )

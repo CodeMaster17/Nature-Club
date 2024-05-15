@@ -19,9 +19,9 @@ const ServicesPage = () => {
         <section className="w-full">
             <div className="w-full bg-navy_blue text-center p-5  md:p-8">
                 <Heading type="LARGE" text="OUR SERVICES" color="white" />
-                <p className="text-white text-md mt-4 w-full md:w-3/5 m-auto">
+                {/* <p className="text-white text-md mt-4 w-full md:w-3/5 m-auto">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum qui ipsa inventore aliquam, dignissimos expedita minus sed recusandae, illum iure, dolores dolore maxime ea excepturi? Non suscipit blanditiis placeat expedita?
-                </p>
+                </p> */}
             </div>
             <div className="w-full bg-navy_blue text-center p-2  md:p-8 flex lg:gap-2 gap-4 justify-center items-center  flex-wrap ">
                 {ServicesTabsData.map((item) => {

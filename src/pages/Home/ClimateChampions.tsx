@@ -6,17 +6,17 @@ const ClimateChampions = () => {
             <div className="md:w-1/2 xs:w-full">
                 <Carousel placeholder={"Placeholder"} className="">
                     <img
-                        src="/home/1.png"
+                        src="/Agriculture_and_livelihood/IMG_10.jpg"
                         alt="image 1"
                         className="h-full w-full object-cover"
                     />
                     <img
-                        src="/home/2.png"
+                        src="/Climate_Change/IMG_1181.JPG"
                         alt="image 2"
                         className="h-full w-full object-cover"
                     />
                     <img
-                        src="/home/5.jpeg"
+                        src="/CCDRR/DSC03889.JPG"
                         alt="image 3"
                         className="h-full w-full object-cover"
                     />

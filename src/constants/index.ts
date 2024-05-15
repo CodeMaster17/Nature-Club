@@ -21,7 +21,7 @@ export const ServicesTabsData = [
   },
   {
     id: 4,
-    title: "Climate change ",
+    title: "Climate change and Adaptive Livelihood",
     description:
       "lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quos?",
     imgURL: "/services/climate.png",

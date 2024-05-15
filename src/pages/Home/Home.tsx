@@ -20,7 +20,7 @@ const Home = () => {
             className="h-full w-full object-cover"
           />
           <img
-            src="/Agriculture and livelihood/P1050233.JPG"
+            src="/Agriculture_and_livelihood/e63f296c-e666-419c-a5ce-5cec3673a197.jpg"
             alt="image 3"
             className="h-full w-full object-cover"
           />
@@ -30,12 +30,12 @@ const Home = () => {
             className="h-full w-full object-cover"
           />
           <img
-            src="/Child rights/IMG_1225.JPG"
+            src="/Child_rights/IMG_1225.JPG"
             alt="image 2"
             className="h-full w-full object-cover"
           />
           <img
-            src="/Climate Change/5f9f4443-3716-424b-88be-2767f3454ecb.jpg"
+            src="/Agriculture_and_livelihood/P1050233.JPG"
             alt="image 3"
             className="h-full w-full object-cover"
           />

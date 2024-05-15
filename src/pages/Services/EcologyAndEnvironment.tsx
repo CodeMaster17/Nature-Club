@@ -5,15 +5,27 @@ import Heading from '../../components/Heading'
 
 const EcologyAndEnvironment = () => {
     return (
-        <div className='w-full p-8'>
+        <div className='w-full p-8' id="ecology_environment">
             <br />
             <div className="w-full text-center">
                 <Heading text="Ecology and Environment" color="#588645" type="LARGE" />
             </div>
             <br />
             <br />
-            <img src="/services/environment.png" alt="Ecology and Environment" className='w-full' />
+            <img src="/ecology_and_environment.jpeg" alt="Ecology and Environment" className='w-full' />
             <br />
+            <br />
+            <Paragraph>
+                Nature’s Club is a leading organization of Odisha working on mangroves, marine ecosystem, wildlife and environment issues. Its name itself says that Organization is committed to Environment and wildlife. Nature’s Club was a member of BEES for a decade.
+            </Paragraph>
+            <br />
+            <Paragraph>
+                Nature’s Club protected wildlife in the district by preventing selling of birds and snake charming creating awareness among larger mass on protection and conservation of wildlife.
+            </Paragraph>
+            <br />
+            <Paragraph>
+                Nature’s Club was conferred with the Prakruti Mitra award in 2016 for its continued service to Bhitarkanika National park, Bhitarkanika Wildlife sanctuary and Gahirmatha Marine sanctuary.
+            </Paragraph>
             <br />
             <SmallHeading>
                 Clean energy solution for Climate Change Adaptation
